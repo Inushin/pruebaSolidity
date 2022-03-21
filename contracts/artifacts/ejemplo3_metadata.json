@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "transferido",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "etherToContrato",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSaldoContrato",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ejemplo3.sol": "ejemplo3"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ejemplo3.sol": {
+			"keccak256": "0xdcf58c3c1d7aebd74f98f2ba7239a44a1f93c9be7bbcc75a012d6b3fc28cbc32",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d3866058563742e73fae4652428f8b54ee88f0421c3c96ae28bf7139b06b8f5e",
+				"dweb:/ipfs/Qmb6T22Z978YEjodnHNgzwDzXALAU3s1Am6VewvoJdP1Pj"
+			]
+		}
+	},
+	"version": 1
+}
